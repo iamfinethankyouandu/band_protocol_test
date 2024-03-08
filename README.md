@@ -36,7 +36,7 @@ In the case where real-time data is required at that moment, `Server Sent Events
 
 However, I may not be certain whether call APIs from data sources like (CoinMarketCap AP, CoinGecko API) can provide real-time prices. If it's possible to obtain real-time data, then the API can be called directly. 
 
-But if real-time data isn't available, the server might resort to `polling`, checking prices every minute. This approach may impact server performance to some extent. This system operates on a minute format.
+But if real-time data isn't available, the server might resort to ==polling==, checking prices every minute. This approach may impact server performance to some extent. This system operates on a minute format.
 
 (Alternatively, WebSocket technology can also be considered, but since I haven't used this technology, I'm unable to explain its workings and design the system.)
 
