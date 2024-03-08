@@ -2,8 +2,6 @@ package main
 
 import "testing"
 
-// reports := []string{"SRSSRRR", "RSSRR", "SSSRRRRS", "SSRSSR"}
-
 func TestBossBabyRevenge(t *testing.T) {
 	tests := []struct {
 		report string
