@@ -62,7 +62,7 @@ Once Core receives the data, it will respond back to Orch, and Orch will respond
       "usd": 46000.25,
       "btc": 1.0,
       "eth": 10.75,
-      ("thb": 2500000)
+      "thb": 2500000 (Orch handle)
     },
     "market_cap": {
       "usd": 864500000000,
