@@ -7,7 +7,7 @@ func BossBabyRevenge(report string) string {
 	}
 
 	shots := 0
-	revenge := 0
+	// revenge := 0
 	for _, event := range report {
 		switch true {
 		case string(event) == "S":
@@ -15,8 +15,8 @@ func BossBabyRevenge(report string) string {
 		// Revenge for the previous shooting
 		case string(event) == "R" && shots > 0:
 			shots--
-		case string(event) == "R":
-			revenge++
+			// case string(event) == "R":
+			// 	revenge++
 		}
 	}
 
